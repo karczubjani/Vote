@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szavazó Űrlap</title>
+    <link rel="stylesheet" href="Szavazas.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <h2>Szavazó Űrlap</h2>
+
+    <form id="szavazaoUrlap">
+        <label for="option1">
+            <input type="radio" name="vote" id="option1" value="Kalinka">
+            Kalinka
+        </label>
+        <br>
+        <label for="option2">
+            <input type="radio" name="vote" id="option2" value="Ballantine's Whiskey">
+            Ballantine's Whiskey
+        </label>
+        <br>
+        <label for="option3">
+            <input type="radio" name="vote" id="option3" value="Jim Beam">
+            Jim Beam
+        </label>
+        <br>
+        <label for="option4">
+            <input type="radio" name="vote" id="option4" value="Koccintós">
+            Koccintós
+        </label>
+        <br>
+        <button type="button" id="szavazoGomb">Szavazás</button>
+    </form>
+
+    <div id="eredmeny"></div>
+
+    <script src="Szavazas.js"></script>
+</body>
+</html>
