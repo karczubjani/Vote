@@ -1,5 +1,5 @@
 .folyamat-sav {
-    border: 1px solid #5f5858;
+    border: 1px solid #666464;
     height: 20px;
     margin-top: 5px;
     overflow: hidden;
@@ -8,6 +8,6 @@
 
 .folyamat {
     height: 100%;
-    background-color: #1eeb25;
+    background-color: #4caf50;
     transition: width 0.3s ease-in-out;
 }
