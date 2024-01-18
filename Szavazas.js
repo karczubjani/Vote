@@ -45,7 +45,7 @@ $(document).ready(function() {
         }
 
         var ido = new Date().getTime();
-        var egyOra = 1;
+        var egyOra = 60 * 60 * 1000;
         return ido - utolsoSzavazat > egyOra;
     }
 
